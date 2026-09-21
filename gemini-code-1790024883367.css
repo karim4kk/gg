@@ -1,0 +1,33 @@
+/* إعداد الخط الرئيسي لتطابق اللغة العربية */
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* التنسيقات الخاصة بأزرار التنقل */
+.nav-btn.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.nav-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* تخصيص مظهر وشكل شريط التمرير */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #10b981;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #059669;
+}
